@@ -100,7 +100,7 @@ let colors = ['orange', 'yellow', 'green', 'teal'];
 //      array only contains three items now, AND to verify that `lastColor`
 //      contains the value "teal".)
 let lastColor = colors.pop();
-console.log(`removed the last color ${lastColor}`);
+console.log(`removed the last color:  ${lastColor}`);
 console.log('the new color list is', colors);
 
 
@@ -113,6 +113,8 @@ console.log('The animals are now', animalArray);
 //      inside a new variable called `firstColor`.
 //      To verify that your code worked, console.log `firstColor`!  
 
+firstColor = colors.shift();
+console.log(`removed the first color: ${firstColor} `);
 
 
 
